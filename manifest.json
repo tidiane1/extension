@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Paps'Script Extension",
+  "description": "Extension Paps'Script",
+  "version": "1.0",
+  "permissions": ["webRequest", "*://recap.paps.com/"],
+  "browser_action": {
+    "default_icon": "images/icon-128x128.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "images/icon-128x128.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
